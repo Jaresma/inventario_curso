@@ -107,7 +107,7 @@
 	  </div>
 	  
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Cancelar</button>
         <button type="submit" class="btn btn-primary" id="guardarnuevo">Agregar Producto</button>
       </div>
 </form>
@@ -228,12 +228,27 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
+      	<!-- cuerpo del modal -->
+    <!-- Nombre del producto-->
+    <form method="POST"  action="abrirbolsa.php" enctype="multipart/form-data" >
+		<label for="nombre_producto">Nombre:</label>
+    <br/>
+    <input type="text" name="nombre_producto" id="nombre_producto" maxlength="45" required class="form-control input-sm" >
+    <br/><br/>
+    <!-- cantidad de bolsas -->
+    <label for="cantidaddebolsas">Cantidad de bolsas:</label>
+    <br/>
+    <input type="text"  name="cantidaddebolsas"  required  class="form-control input-sm">
+    <br/><br/>
+	  
+    </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">No abrir bolsas</button>
+        <button type="submit" class="btn btn-primary" id="abrirbolsa">Abrir bolsa</button>
       </div>
+</form>
+      
+      
     </div>
   </div>
 </div>
