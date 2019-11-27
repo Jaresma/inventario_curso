@@ -281,13 +281,6 @@
             <?php
             require_once("checarstockdebajodelmin.php");
             ?>
-
-            <p>Productos que estan cerca del minimo</p>
-            
-            <?php
-            require_once("checarstockcercamin.php");
-            ?>
-            </div>
             
 
           </div>
