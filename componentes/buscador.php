@@ -8,7 +8,7 @@
  ?>
 <br><br>
 <div class="row">
-	<div class="col-sm"></div>
+	
 	<div class="col-sm-4">
 		<label>Buscador</label>
 		<select id="buscadorvivo" class="form-control input-sm">

@@ -19,7 +19,7 @@
 		$bolsasxcaja=$_POST['cantidadbolsasporcaja'];
 		$gramosxbolsa=$_POST['cantidadgramosporbolsa'];
 		$cantidad_max=$_POST['cantidad_max'];
-		$cantidad_min=$_POST['cantidad_max'];
+		$cantidad_min=$_POST['cantidad_min'];
 		$CATEGORIA_PRODUCTOS_idCATEGORIA_PRODUCTOS=$_POST['categoria'];
 		
 		

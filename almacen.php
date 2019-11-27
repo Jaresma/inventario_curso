@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,7 +20,10 @@
 <body>
 
 	<div class="container">
+  
+
     <div id ="buscador"></div>
+    
 		<div id="tabla"></div>
 	</div>
 
@@ -33,7 +38,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+    <div class="modal-body">
 		<!-- cuerpo del modal -->
     <!-- NOMBRE-->
     <form method="POST"  action="altaproducto.php" enctype="multipart/form-data" >
@@ -227,7 +232,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+    <div class="modal-body">
       	<!-- cuerpo del modal -->
     <!-- Nombre del producto-->
     <form method="POST"  action="abrirbolsa.php" enctype="multipart/form-data" >
@@ -252,14 +257,65 @@
     </div>
   </div>
 </div>
+<!-- MODAL PARA MOSTRAR MAX Y MINIMOS -->
+<<div class="modal fade" id="modalmaxmin" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+           <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h3>Maximos y minimos</h3>
+           </div>
+        <div class="modal-bodymin ">
+          <div class="container">
+          
+
+            <div class="col-sm-8">
+            <h4>Existencias</h4>
+            <p>Productos con existencia minima:</p>
+            
+            <?php
+            require_once("checarstockexistenciamin.php");
+            ?>
+            <p>Productos que estan debajo del minimo:</p>
+            
+            <?php
+            require_once("checarstockdebajodelmin.php");
+            ?>
+
+            <p>Productos que estan cerca del minimo</p>
+            
+            <?php
+            require_once("checarstockcercamin.php");
+            ?>
+            </div>
+            
+
+          </div>
+       
+
+          
+         
+         
+        </div>         
+       
+       
+           <div class="modal-footer">
+          <a href="#" data-dismiss="modal" class="btn btn-danger">Cerrar</a>
+           </div>
+      
+      </div>
+   </div>
+
 
 </body>
-</html>
+</html> 
 
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('#tabla').load('componentes/tabla.php');
-    $('#buscador').load('componentes/buscador.php')
+    $('#buscador').load('componentes/buscador.php');
+    $('#modalmaxmin').modal('show');
+
 	});
 </script>
 

@@ -11,8 +11,8 @@ $conexion=conexion();
 
 
 <div class="row">
+
 	<div class="col-sm-8">
-	
 		<table class="table table-hover table-condensed table-bordered"  >
 		<caption>
 			<button class="btn btn-primary" data-toggle="modal" data-target="#modalnuevo">Agregar nuevo 
@@ -107,3 +107,4 @@ $conexion=conexion();
 		</table>
 	</div>
 </div>
+
