@@ -19,7 +19,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Almacen</title>
 	<?php require_once("head.php");?>
 </head>
 <body>
@@ -43,32 +43,11 @@
 						</ol>
 					</div>
 
-					<?php 
-
-                       if(isset($_GET["m"])){
-                         
-                         switch($_GET["m"]){
-
-                           case "1";
-                           ?>
-                           <h2>Los campos estan vacios</h2>
-                           <?php
-                           break;
-
-                           case "2";
-                           ?>
-                           <h2>el usuario se ha agregado</h2>
-                           <?php
-                           break;
-                         }
-                       }
-					?>
+				
 
 					<div class="panel panel-default">
 						 
-						 <div class="panel-heading">
-						 	<h3 class="panel-title"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Registro de Usuarios</h3>
-						 </div>
+						
 
 						 <div class="panel-body">
 						 	<?php require_once("almacen.php"); ?>

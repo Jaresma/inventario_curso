@@ -8,8 +8,8 @@ $conexion=conexion();
 
 
 <div class="row">
-	<div class="col-sm-12">
-	<h2>Tabla dinamica CRUD PRODUCTOS</h2>
+	<div class="col-sm-8">
+	<!-- <h2>Tabla dinamica CRUD PRODUCTOS</h2> -->
 		<table class="table table-hover table-condensed table-bordered">
 		<caption>
 			<button class="btn btn-primary" data-toggle="modal" data-target="#modalnuevo">Agregar nuevo 
