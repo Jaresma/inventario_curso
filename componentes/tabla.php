@@ -9,15 +9,21 @@ $conexion=conexion();
 
 <div class="row">
 	<div class="col-sm-8">
-	<!-- <h2>Tabla dinamica CRUD PRODUCTOS</h2> -->
-		<table class="table table-hover table-condensed table-bordered">
+	
+		<table class="table table-hover table-condensed table-bordered"  >
 		<caption>
 			<button class="btn btn-primary" data-toggle="modal" data-target="#modalnuevo">Agregar nuevo 
 				<span class="glyphicon glyphicon-plus"></span>
 			</button>
+
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalabrirbolsa">
+				Abrir Bolsa
+				<span class="glyphicon glyphicon-transfer"></span>
+				</button>
+
 		</caption>
 			<!-- encabezado de la tabla -->
-            <tr>
+            <tr >
             	<td>ID</td>
                 <td>Nombre</td>
                 <td>Descripcion</td>

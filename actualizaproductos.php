@@ -29,7 +29,7 @@
 
 
 
-		$conexion=mysqli_connect('localhost','root','','dulceria_susi');
+		$conexion=mysqli_connect('localhost','root','','inventario_curso');
 		
 		$sql = "UPDATE productos SET  name = '$nombre',
 									descripcion ='$descripcion',

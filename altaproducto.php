@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Verificacion alta producto</title>
-        <meta HTTP-EQUIV="refresh" content="5; URL=veralmacen.php">
+        <!-- <meta HTTP-EQUIV="refresh" content="5; URL=index.php"> -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
@@ -33,7 +33,7 @@
 
 
 
-            $conexion=mysqli_connect('localhost','root','','dulceria_susi');
+            $conexion=mysqli_connect('localhost','root','','inventario_curso');
             
             $sql = "INSERT INTO productos (name,img,descripcion,precio_entrada,precio_salida,codigo_barras,stock,estado,bolsasxcaja,gramosxbolsa,cantidad_max,cantidad_min,CATEGORIA_PRODUCTOS_idCATEGORIA_PRODUCTOS) 
             VALUES ('$nombre','$img','$descripcion','$precio_entrada','$precio_salida','$codigo_barras','$stock','$estado','$bolsasxcaja','$gramosxbolsa','$cantidad_max','$cantidad_min','$CATEGORIA_PRODUCTOS_idCATEGORIA_PRODUCTOS')";

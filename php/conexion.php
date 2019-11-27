@@ -5,7 +5,7 @@
 			$servidor="localhost";
 			$usuario="root";
 			$password="";
-			$bd="dulceria_susi";
+			$bd="inventario_curso";
 
 			$conexion=mysqli_connect($servidor,$usuario,$password,$bd);
 

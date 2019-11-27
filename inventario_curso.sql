@@ -258,7 +258,7 @@ ALTER TABLE `usuarios`
 -- -----------------------------------------------------
 -- Table `dulceria_susi`.`CATEGORIA_PRODUCTOS`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `dulceria_susi`.`CATEGORIA_PRODUCTOS` (
+CREATE TABLE IF NOT EXISTS `CATEGORIA_PRODUCTOS` (
   `idCATEGORIA_PRODUCTOS` INT NOT NULL AUTO_INCREMENT,
   `NOMBRE_CATEGORIA` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`idCATEGORIA_PRODUCTOS`),
@@ -270,7 +270,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `dulceria_susi`.`PRODUCTOS`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `dulceria_susi`.`PRODUCTOS` (
+CREATE TABLE IF NOT EXISTS `PRODUCTOS` (
   `idPRODUCTOS` BIGINT NOT NULL AUTO_INCREMENT,
   `NAME` VARCHAR(45) NOT NULL,
   `IMG` BLOB NOT NULL,
@@ -278,7 +278,7 @@ CREATE TABLE IF NOT EXISTS `dulceria_susi`.`PRODUCTOS` (
   `PRECIO_ENTRADA` DECIMAL NOT NULL,
   `PRECIO_SALIDA` DECIMAL NOT NULL,
   `CODIGO_BARRAS` VARCHAR(15) NOT NULL,
-  `STOCK` INT NULL,
+  `STOCK` DECIMAL NULL,
   `ESTADO` INT NOT NULL,
   `bolsasxcaja` INT NOT NULL,
   `gramosxbolsa` DECIMAL NOT NULL,
