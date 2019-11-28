@@ -4,4 +4,4 @@
    <p class="pull-right"><a href="">Eyter Higuera</a></p>
 </footer>
 
- <script type="text/javascript" src="<?php echo Conectar::ruta();?>public/js/script.js" language="javascript"></script>
+ <script type="text/javascript" src="public/js/script.js" language="javascript"></script>

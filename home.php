@@ -30,13 +30,15 @@
 
      			<div class="col-sm-8">
      				
-     				<h2>Sistema de control de inventarios y ventas</h2>
-     				<p class="justify">El   inventario es uno de los factores principales que determinan cómo   trabajan las empresas y obtienen beneficios; es saludable e importante   para todas las empresas el operar y administrar bien sus inventario. El   enfoque y el objetivo del control de inventarios es mantener un nivel   óptimo del inventario y su inversión</p>
+     				<h2>Sistema Integral Susi</h2>
+     				<p class="justify">
+						 Bienvenido dulceria susi le desea buen dia 
+						 Nota:Cualquier inconveniente contactar al administrador
+					 </p>
      			</div>
      		</div><!--row-->
      	</div><!--container-->
 
-     	<?php require_once("footer.php");?>
      </div><!--container-fluid-->
     
 </body>
