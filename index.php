@@ -18,7 +18,7 @@ $usuario= new Usuarios();
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>BIENVENIDO!!</title>
 	<?php require_once("head.php");?>
 </head>
 <body class="pagina_index">
@@ -46,7 +46,7 @@ $usuario= new Usuarios();
 
                      <div class="form-group">
                      	<label for="">Password</label>
-                     	<input type="text" name="password" class="form-control" placeholder="password">
+                     	<input type="password" name="password" class="form-control" placeholder="password">
                      </div>
 
                     <input type="hidden" name="grabar" value="si">

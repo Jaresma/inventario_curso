@@ -48,7 +48,7 @@
 							  <li><a href="agregar_proveedor.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nuevos Proveedores</a></li>
 							  <li><a href="pedidos.php"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Pedidos</a></li>
 							  <li><a href="agregar_pedido.php"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Nuevos Pedidos</a></li>
-							  <li><a href="reporte_pedidos.php"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Reporte Pedidos</a></li>
+							 
 						</ol>
 		  			</div>
 
@@ -85,9 +85,9 @@
 		  				 	  	  
 		  				 	  	  <div class="form-group">
 		  				 	  	  	
-		  				 	  	  	<label for="" class="control-label col-sm-2">Rif Proveedor</label>
+		  				 	  	  	<label for="" class="control-label col-sm-2">RFC Proveedor</label> <!-- in data base rif_proveedor -->
 		  				 	  	  	<div class="col-sm-6">
-		  				 	  	  		<input type="text" name="rif_proveedor" class="form-control" placeholder="rif proveedor">
+		  				 	  	  		<input type="text" name="rif_proveedor" class="form-control" placeholder="RFC proveedor">
 		  				 	  	  	</div>
 		  				 	  	  </div>
 
@@ -144,7 +144,7 @@
 		 </div><!--container fluid-->
 	</div>
 
-	<?php require_once("footer.php");?>
+
 	
 </body>
 </html>

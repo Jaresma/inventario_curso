@@ -38,7 +38,7 @@
 						  <li><a href="home.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
 						  <li><a href="clientes.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Clientes</a></li>
 						  <li><a href="agregar_cliente.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nuevo Cliente</a></li>
-						  <li><a href="reporte_clientes.php"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> listado de clientes en pdf</a></li>
+						 
 						</ol>
 		 	 		</div>
 
@@ -54,7 +54,7 @@
                        	    	
                        	      <thead>
                        	      	<tr>
-	                       	      	<th>Cédula</th>
+	                       	      	<th>RFC</th> <!-- in data base = cedula  -->
 	                       	      	<th>Nombres</th>
 	                       	      	<th>Apellidos</th>
 	                       	      	<th>Telefono</th>
@@ -90,7 +90,7 @@
 
 	<?php require_once("footer_js_tabla.php");?>
 
-	<?php require_once("footer.php");?>
+	
 </body>
 </html>
 

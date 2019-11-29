@@ -39,7 +39,7 @@
 							  <li><a href="home.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Principal</a></li>
 							  <li><a href="entradas.php"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Entradas</a></li>
 							  <li><a href="agregar_entrada.php"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Nueva Entradas</a></li>
-							  <li><a href="reporte_entrada.php"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Orden de Entrada</a></li>
+							  
 							 
 						</ol>
 		  	 		 </div>
@@ -90,7 +90,7 @@
 
 	<?php require_once("footer_js_tabla.php");?>
 
-	<?php require_once("footer.php");?>
+	
 	
 </body>
 </html>

@@ -57,7 +57,7 @@ require_once("class/config.php");
 					     	   <tr>
 						     	
 						     	  	<th>Código</th>
-						     	  	<th>Cédula</th>
+						     	  	<th>RFC</th> <!-- cedula in database -->
 						     	  	<th>Nombres</th>
 						     	  	<th>Status</th>
 						     	  	<th>Fecha</th>
@@ -87,7 +87,7 @@ require_once("class/config.php");
     	<?php require_once("footer_js_tabla.php");?>
     </div><!--container-fluid-->
 
-    <?php require_once("footer.php");?>
+   
 	
 </body>
 </html>

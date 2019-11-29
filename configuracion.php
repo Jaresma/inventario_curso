@@ -57,11 +57,11 @@
 							 	
 							 	<thead>
 							 		<tr>
-							 			<th>Rif de empresa</th>
+							 			<th>RFC de empresa</th> <!--  rif in database -->
 							 			<th>Nombre de empresa</th>
 							 			<th>Dirección de empresa</th>
 							 			<th>Teléfono de empresa</th>
-							 			<th>Cédula de gerente</th>
+							 			<th>RFC de gerente</th> <!-- ced_gerente in database -->
 							 			<th>Nombre de gerente</th>
 							 			<th>Apellido de gerente</th>
 							 			<th>Correo de gerente</th>
@@ -101,7 +101,7 @@
 	
 	<?php require_once("footer_js_tabla.php");?>
 
-	<?php require_once("footer.php");?>
+	
 </body>
 </html>
 

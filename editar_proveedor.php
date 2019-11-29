@@ -86,9 +86,9 @@
 		  				 	  	  
 		  				 	  	  <div class="form-group">
 		  				 	  	  	
-		  				 	  	  	<label for="" class="control-label col-sm-2">Rif Proveedor</label>
+		  				 	  	  	<label for="" class="control-label col-sm-2">RFC Proveedor</label> <!-- rif in database -->
 		  				 	  	  	<div class="col-sm-6">
-		  				 	  	  		<input type="text" name="rif_proveedor" class="form-control" placeholder="rif proveedor" value="<?php echo $datos[0]["rif_proveedor"];?>">
+		  				 	  	  		<input type="text" name="rif_proveedor" class="form-control" placeholder="RFC proveedor" value="<?php echo $datos[0]["rif_proveedor"];?>">
 		  				 	  	  	</div>
 		  				 	  	  </div>
 
@@ -147,7 +147,7 @@
 		 </div><!--container fluid-->
 	</div>
 
-	<?php require_once("footer.php");?>
+	
 	
 </body>
 </html>

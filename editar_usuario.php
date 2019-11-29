@@ -42,9 +42,9 @@
 
 					<div class="panel-usuario">
 						<ol class="breadcrumb">
-						  <li><a href="<?php echo Conectar::ruta();?>home.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Principal</a></li>
-						  <li><a href="<?php echo Conectar::ruta();?>usuarios.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Usuarios</a></li>
-						  <li><a href="<?php echo Conectar::ruta();?>agregar_usuario.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Agregar Usuario</a></li>
+						  <li><a href="home.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Principal</a></li>
+						  <li><a href="usuarios.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Usuarios</a></li>
+						  <li><a href="agregar_usuario.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Agregar Usuario</a></li>
 						</ol>
 					</div>
 
@@ -79,9 +79,9 @@
 						 	 <form action="" method="post" class="form-horizontal">
 						
 						   <div class="form-group">
-							<label for="" class="col-sm-2 control-label">Cédula</label>
+							<label for="" class="col-sm-2 control-label">RFC</label> <!-- cedula in database -->
 							<div class="col-sm-6">
-								<input type="text" name="cedula" class="form-control" placeholder="ingrese su cedula" value="<?php echo $datos[0]["cedula"];?>">
+								<input type="text" name="cedula" class="form-control" placeholder="ingrese su RFC" value="<?php echo $datos[0]["cedula"];?>">
 							</div>
 						    </div>
 						                           
@@ -174,7 +174,7 @@
 		</div><!--container-fluid-->
 	</div>
 
-	<?php require_once("footer.php");?>
+	
 	
 </body>
 </html>

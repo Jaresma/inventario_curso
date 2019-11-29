@@ -64,14 +64,14 @@
 			 			 <ol class="breadcrumb">
 							  <li><a href="home.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Principal</a></li>
 							  <li><a href="configuracion.php"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Configuración</a></li>
-							  <li><a href="agregar_configuracion.php"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Agregar Configuración</a></li>
+							  
 						</ol>
 			 		</div>
 
 			 		<div class="panel panel-default">
 			 			
                         <div class="panel-heading">
-                        	<h3 class="panel-title"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Editar Configuración</h3>
+                        	<h3 class="panel-title"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Agregar Configuración</h3>
                         </div>
 
                         <div class="panel-body">
@@ -80,9 +80,9 @@
                         		
                                <div class="form-group">
                                	  
-                               	  <label for="" class="col-sm-2 control-label">rif de empresa</label>
+                               	  <label for="" class="col-sm-2 control-label">RFC de empresa</label> <!-- rif in database -->
                                   <div class="col-sm-6">
-                                    <input type="text" name="rif_empresa" class="form-control" placeholder="rif empresa">
+                                    <input type="text" name="rif_empresa" class="form-control" placeholder="RFC empresa">
                                   </div>
                                </div>
 
@@ -112,9 +112,9 @@
 
                                <div class="form-group">
                                	  
-                               	  <label for="" class="col-sm-2 control-label">cédula de gerente</label>
+                               	  <label for="" class="col-sm-2 control-label">RFC de gerente</label> <!-- ced_gerente in database -->
                                   <div class="col-sm-6">
-                                    <input type="text" name="ced_gerente" class="form-control" placeholder="cedula de gerente">
+                                    <input type="text" name="ced_gerente" class="form-control" placeholder="RFC de gerente">
                                   </div>
                                </div>
 

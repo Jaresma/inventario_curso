@@ -34,7 +34,7 @@ if($recuperar[0]>=$bolsasabiertas){
         $recuperar= $resproductos -> fetch_array(MYSQLI_BOTH);
         
         $gramosasumar=$recuperar[0]+$gramosasumar;
-      /*  */
+      /* actualiza el stock de granel para simular abrir una bolsa  */
     
         $sql="UPDATE productos SET stock ='$gramosasumar' where name='granel'";
         if (mysqli_query($conexion, $sql)) {

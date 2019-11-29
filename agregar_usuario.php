@@ -77,9 +77,9 @@
 						 	 <form action="" method="post" class="form-horizontal">
 						
 						   <div class="form-group">
-							<label for="" class="col-sm-2 control-label">Cédula</label>
+							<label for="" class="col-sm-2 control-label">RFC</label> <!-- cedula in database -->
 							<div class="col-sm-6">
-								<input type="text" name="cedula" class="form-control" placeholder="ingrese su cedula">
+								<input type="text" name="cedula" class="form-control" placeholder="ingrese su RFC">
 							</div>
 						    </div>
 						                           
@@ -170,7 +170,7 @@
 		</div><!--container-fluid-->
 	</div>
 
-	<?php require_once("footer.php");?>
+	
 	
 </body>
 </html>
