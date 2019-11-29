@@ -1,10 +1,16 @@
-
-
-
-
-
-
-<?php 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Verificacion alta producto</title>
+        <meta HTTP-EQUIV="refresh" content="1; URL=veralmacen.php">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+     
+	  <h1>Verificacion actualizacion de producto</h1>
+	  <?php 
 
 
 	if(isset($_POST['nombre'] )and $_POST['nombre']!=""){
@@ -61,3 +67,14 @@
 
 
  ?>
+    
+
+      
+    
+</body>
+</html>
+
+
+
+
+

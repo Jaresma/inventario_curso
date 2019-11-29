@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Verificacion alta producto</title>
-        <!-- <meta HTTP-EQUIV="refresh" content="5; URL=index.php"> -->
+        <meta HTTP-EQUIV="refresh" content="1; URL=veralmacen.php">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
