@@ -12,6 +12,7 @@
 				  <li class="btn btn-default">Menu</li>
 <li role="presentation" class=""><a class="btn btn-primary ajax-link" href="home.php"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio </a></li>
 <li role="presentation" class=""> <a class="btn btn-primary ajax-link" href="clientes.php"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Clientes</a></li>
+<li role="presentation" class=""><a class="btn btn-primary ajax-link" href=""><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Facturacion</a></li>
 <li role="presentation" class=""><a class="btn btn-primary ajax-link" href="proveedores.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Proveedores</a></li>
 <li role="presentation" class=""><a class="btn btn-primary ajax-link" href="entradas.php"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>Entradas</a></li>
 <li role="presentation" class=""><a class="btn btn-primary ajax-link" href="veralmacen.php"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Almacen</a></li>

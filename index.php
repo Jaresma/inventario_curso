@@ -15,46 +15,38 @@ $usuario= new Usuarios();
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-	<meta charset="UTF-8">
-	<title>BIENVENIDO!!</title>
-	<?php require_once("head.php");?>
+  <meta charset="UTF-8">
+  <title>SIS</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+  <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="pagina_index">
-	
-	 <div class="container-fluid">
-	 	
-	 	<div class="container">
-	 		<div class="row">
-	 			<div class="col-sm-8 col-sm-offset-3">
-	 				<h2>SISTEMA DE CONTROL DE INVENTARIO Y VENTAS</h2>
-	 			</div>
-	 		</div><!--row-->
-	 	</div><!--container-->
 
-	 	<div class="container">
-	 		<div class="row">
-	 			<div class="col-sm-5 col-sm-offset-3">
-	 				
-	 				<form method="post" action="">
-	 					
-                     <div class="form-group">
-                     	<label for="">Usuario</label>
-                     	<input type="text" name="usuario" class="form-control" placeholder="usuario">
-                     </div>
+<body>
+	<h1 class="titulo-ventana col-10 f-candy-shop" style="margin-top: 10px; color: black;">Sistema Integral Dulceria Susi</h1>
+	<center>
+  <div class="wrap">
+		<div class="avatar">
+      <img src="img/susi-girl.png">
+		</div>
+		<form action="" method="POST">
+		<input type="text" name="usuario" class="form-control" placeholder="usuario">
+		<div class="bar">
+			<i></i>
+		</div>
+		<input type="password" name="password" class="form-control" placeholder="password">
+		<input type="hidden" name="grabar" value="si">
+        <button type="submit" class="btn btn-default">ENVIAR</button>
+		</form>
+		
+	</div>
+    </center>
+	<div style = "font-size:16px; color:#cc0000;"></div>
+  <script src="js/index.js"></script>
 
-                     <div class="form-group">
-                     	<label for="">Password</label>
-                     	<input type="password" name="password" class="form-control" placeholder="password">
-                     </div>
-
-                    <input type="hidden" name="grabar" value="si">
-                     <button type="submit" class="btn btn-default">ENVIAR</button>
-	 				</form>
-	 			</div>
-	 		</div>
-	 	</div>
-	 </div><!--container-fluid-->
 </body>
+
 </html>

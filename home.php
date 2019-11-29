@@ -11,7 +11,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>BIENVENIDO!</title>
 	<?php require_once("head.php");?>
 
 </head>
