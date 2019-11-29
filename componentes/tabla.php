@@ -33,9 +33,9 @@ $conexion=conexion();
                 <td>Precio Compra</td>
                 <td>Precio Venta</td>
                 <td>Codigo de barras</td>
-                <td>Stock</td>
+                <td>Stock Almacen</td>
                 <td>Estado</td>
-                <td>Bolsas Caja</td>
+                <td>Stock Piso</td>
                 <td>Gramos Bolsa</td>
 				<td>Cantidad Maxima</td>
 				<td>Cantidad Minima</td>

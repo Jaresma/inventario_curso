@@ -28,7 +28,7 @@ if($recuperar[0]>=$bolsasabiertas){
         }
         
       /* actualizo stock del produto a granel  */
-        $sql="SELECT stock from productos where name = 'granel'";
+        $sql="SELECT stock_piso from productos where name = 'granel'";
         
         $resproductos = $conexion -> query($sql);
         $recuperar= $resproductos -> fetch_array(MYSQLI_BOTH);
@@ -36,7 +36,7 @@ if($recuperar[0]>=$bolsasabiertas){
         $gramosasumar=$recuperar[0]+$gramosasumar;
       /* actualiza el stock de granel para simular abrir una bolsa  */
     
-        $sql="UPDATE productos SET stock ='$gramosasumar' where name='granel'";
+        $sql="UPDATE productos SET stock_piso ='$gramosasumar' where name='granel'";
         if (mysqli_query($conexion, $sql)) {
             echo "se sumo a granel :".$nombre_producto;
             echo "<br>";

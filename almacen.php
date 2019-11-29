@@ -72,12 +72,12 @@
     <input type="text" name="codigodebarras" maxlength="15" required class="form-control input-sm">
     <br/><br/>
     <!--stock caja -->
-    <label for="stockcaja">Stock Caja:</label>
+    <label for="stockcaja">Stock Almacen:</label>
     <br/>
     <input type="text" name="stockcaja" maxlength="45" required class="form-control input-sm">
     <br/><br/>
     <!-- Cantidad de bolsas por caja -->
-    <label for="cantidadbolsasporcaja">Cantidad de bolsas por caja:</label>
+    <label for="cantidadbolsasporcaja">Stock Piso:</label>
     <br/>
     <input type="text" name="cantidadbolsasporcaja" maxlength="15" required class="form-control input-sm">
     <br/><br/>
@@ -171,12 +171,12 @@
     <input type="text" id="codigodebarrasu" name="codigodebarras" maxlength="15" required class="form-control input-sm">
     <br/><br/>
     <!--stock caja -->
-    <label for="stockcaja">Stock Caja:</label>
+    <label for="stockcaja">Stock Almacen:</label>
     <br/>
     <input type="text" id="stockcajau" name="stockcaja" maxlength="45" required class="form-control input-sm">
     <br/><br/>
     <!-- Cantidad de bolsas por caja -->
-    <label for="cantidadbolsasporcaja">Cantidad de bolsas por caja:</label>
+    <label for="cantidadbolsasporcaja">Stock Piso:</label>
     <br/>
     <input type="text" id="cantidadbolsasporcajau" name="cantidadbolsasporcaja" maxlength="15" required class="form-control input-sm">
     <br/><br/>

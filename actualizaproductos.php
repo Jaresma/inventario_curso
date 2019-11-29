@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Verificacion alta producto</title>
-        <meta HTTP-EQUIV="refresh" content="1; URL=veralmacen.php">
+        <!-- <meta HTTP-EQUIV="refresh" content="1; URL=veralmacen.php"> -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
@@ -22,7 +22,7 @@
 		$codigo_barras=$_POST['codigodebarras'];
 		$stock=$_POST['stockcaja'];
 		$estado=$_POST['estado'];
-		$bolsasxcaja=$_POST['cantidadbolsasporcaja'];
+		$stock_piso=$_POST['cantidadbolsasporcaja'];
 		$gramosxbolsa=$_POST['cantidadgramosporbolsa'];
 		$cantidad_max=$_POST['cantidad_max'];
 		$cantidad_min=$_POST['cantidad_min'];
@@ -44,7 +44,7 @@
 									codigo_barras = '$codigo_barras',
 									stock= '$stock',
 									estado = '$estado',
-									bolsasxcaja = '$bolsasxcaja',
+									stock_piso = '$stock_piso',
 									gramosxbolsa = '$gramosxbolsa',
 									cantidad_max = '$cantidad_max',
 									cantidad_min = '$cantidad_min',
